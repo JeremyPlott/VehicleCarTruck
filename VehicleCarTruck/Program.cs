@@ -26,8 +26,8 @@ namespace VehicleCarTruck {
                 Console.WriteLine(vehicle.Print());
             }
 
-            //foreach(var vehicle in vehicles) {
-            //    Console.WriteLine(base.Print());
+            //foreach(var vehicle in vehicles) { //can't figure out how to base.print
+            //    Console.WriteLine(vehicle.Print());
             //}
         }
 
