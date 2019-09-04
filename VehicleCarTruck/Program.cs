@@ -7,12 +7,6 @@ namespace VehicleCarTruck {
 
         void Run() {
 
-            //var vehicles = new list<Vehicle>();
-            //vehicles.Add(new Car(~~~~~~~~));
-            //foreach(vehicle in vehicles) {
-            //  Console.WriteLine(Print());
-            //}
-
             var vehicles = new List<Vehicle>();
             vehicles.Add(new Car(true, false, true, "8375622", "McLaren", "F1", "High trim", 230000));
             vehicles.Add(new Car(false, true, false, "3856211", "Toyota", "Highlander", "Low trim", 7000));
